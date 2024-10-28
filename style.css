@@ -15,7 +15,6 @@ body{
 
 .cartao{
     margin: 1rem 1rem;
-    background-color: rgb(0, 4, 255);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -23,9 +22,12 @@ body{
 
 .cartao__conteudo{
     text-align: center;
-    background-color: rgb(0, 40, 255);
+    background-color: var(--card-front-color);
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
+
 footer{
     background-color: black;
     color: white;
@@ -43,6 +45,7 @@ footer p{
 
 .cartao__conteudo__h3{
     color: var(--text-color));
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -51,3 +54,16 @@ footer p{
     font-size: 1vw;
 }
 
+.cartao__conteudo__pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.cartao__conteudo__resposta p {
+    color: var(--card-back-color);
+    font-weight: 700;
+}
+
+.cartao:hover .cartao__conteudo{
+    transform: rotateY('180deg');
+}
