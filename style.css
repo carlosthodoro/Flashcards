@@ -47,8 +47,8 @@ footer p{
     margin-top: 0.5rem;
 }
 
-.cartao__conteudo__h3{
-    color: var(--text-color));
+.cartao__conteudo h3{
+    color: var(--text-color);
     border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
