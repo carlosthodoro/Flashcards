@@ -1,25 +1,25 @@
 criaCartao{
     "Aleatório",
     "Qual o motivo da morte de Hitler?",
-    "Suicidio"
+    "Suicidio."
 }
 
 criaCartao{
     "Geografia",
     "Qual é a capital da França?",
-    "Suicidio"
+    "Suicidio."
 }
 
 criaCartao{
     "Aleatório",
     "Qual o motivo da morte de Hitler?",
-    "Paris"
+    "Paris."
 }
 
 criaCartao{
     "Lingua inglesa",
     "Como se diz oi em inglês?",
-    "Oi em inglês é HI"
+    "Oi em inglês é HI."
 }
 
 criaCartao{
