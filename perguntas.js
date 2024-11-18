@@ -1,34 +1,34 @@
-crriaCartao{
+criaCartao{
     "Aleatório",
     "Qual o motivo da morte de Hitler?",
     "Suicidio"
 }
 
-crriaCartao{
+criaCartao{
     "Geografia",
     "Qual é a capital da França?",
     "Suicidio"
 }
 
-crriaCartao{
+criaCartao{
     "Aleatório",
     "Qual o motivo da morte de Hitler?",
     "Paris"
 }
 
-crriaCartao{
-    "Aleatório",
-    "Qual o motivo da morte de Hitler?",
-    "Suicidio"
+criaCartao{
+    "Lingua inglesa",
+    "Como se diz oi em inglês?",
+    "Oi em inglês é HI"
 }
 
-crriaCartao{
+criaCartao{
     "Aleatório",
     "Quem matou Getulio Vargas?",
     "Ele mesmo"
 }
 
-crriaCartao{
+criaCartao{
     "Aleatório",
     "Quem perdeu duas guerras mundiais?",
     "Alemanha"
