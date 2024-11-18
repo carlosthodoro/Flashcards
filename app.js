@@ -13,6 +13,13 @@
                     <p>${resposta}</p>
                     </div>
                 </div>
-                `
-                container.appendChild(cartao)
+            `
+
+    let respostaEstaVisivel = false
+
+    function viraCartao() {
+        respostaEstaVisivel = !respostaEstaVisivel
+    }
+
+    container.appendChild(cartao)
     }
