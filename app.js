@@ -5,12 +5,12 @@
 
         cartao.innerHTML = `
         <div class="cartao__conteudo">
-                    <h3>Aleatório</h3>
+                    <h3>${categoria}</h3>
                     <div class="cartao__conteudo__pergunta">
-                    <p>Qual o motivo da morte de Hitler?</p>
+                    <p>${pergunta}</p>
                     </div>
                     <div class="cartao_-conteudo__resposta">
-                    <p>Suicidio.</p>
+                    <p>${resposta}</p>
                     </div>
                 </div>
                 `
