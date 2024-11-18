@@ -19,6 +19,7 @@
 
     function viraCartao() {
         respostaEstaVisivel = !respostaEstaVisivel
+        
     }
 
     container.appendChild(cartao)
