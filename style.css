@@ -110,7 +110,7 @@ footer p {
     font-size: 0.5rem;
 }
 
-    @media (max-whidt: 560px) {
+@media (max-whidt: 560px) {
  body{
     background: url('img/bg-mobile.webp');
  }       
